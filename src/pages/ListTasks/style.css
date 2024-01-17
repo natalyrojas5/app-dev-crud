@@ -1,0 +1,9 @@
+.pageListTasks__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageListTasks__title {
+  font-size: 2.5rem;
+}

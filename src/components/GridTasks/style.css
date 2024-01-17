@@ -1,0 +1,9 @@
+.gridTasks {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.gridTasks__textEmpty {
+  text-align: center;
+  font-size: 1.5rem;
+}

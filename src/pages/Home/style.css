@@ -1,0 +1,19 @@
+.pageHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+}
+
+.pageHome__title {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.pageHome__subtitle {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}

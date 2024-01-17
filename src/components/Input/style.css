@@ -1,0 +1,22 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: left
+}
+
+.input__text {
+  font-size: 1.5rem;
+}
+
+.input__box {
+  padding: 0.9rem;
+  border-radius: 1rem;
+  border: 0;
+}
+
+.input__box:focus-visible {
+  border: 0;
+  outline: none;
+}

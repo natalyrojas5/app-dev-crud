@@ -1,0 +1,33 @@
+.cardTask {
+  padding: 1.4rem;
+  background-color: var(--c-white);
+  color: var(--c-dark);
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  text-align: left;
+}
+
+.cardTask__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.cardTask__title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.cardTask__description::first-letter {
+  text-transform: uppercase;
+}
+
+.cardTask__actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.cardTask__actions svg {
+  cursor: pointer;
+}
