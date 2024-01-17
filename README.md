@@ -20,3 +20,13 @@ npm install
 ```
 npm run dev
 ```
+
+## Proceso de Creación
+
+![Parte 01 - Creación de Componentes - YT](/parte-01.png)
+
+[Intro + Creación de Componentes - Youtube](https://youtu.be/gK8Pw4RNCms?si=Ps6xgvTnsuRquUk3)
+
+- Branch: feature/design-components
+
+---
