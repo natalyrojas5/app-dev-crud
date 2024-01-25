@@ -1,10 +1,14 @@
-import "./style.css"
+import "./style.css";
 
-const Input = () => {
+const Input = ({ label, placeholder, isTextarea }) => {
   return (
     <div className="input">
-      <label className="input__text">label</label>
-      <input className="input__box" placeholder="Texto" />
+      <label className="input__text">{label}</label>
+      {isTextarea ? (
+        <textarea className="textarea__box" placeholder={placeholder} />
+      ) : (
+        <input className="input__box" placeholder={placeholder} />
+      )}
     </div>
   );
 };

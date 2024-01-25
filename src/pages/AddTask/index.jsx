@@ -8,9 +8,9 @@ const AddTask = () => {
     <main className="pageAddTask">
       <h1 className="pageAddTask__title">Crear Tarea</h1>
       <section className="pageAddTask__form">
-        <Input />
-        <Input />
-        <Button />
+        <Input label="Titulo" placeholder="titulo" isTextarea={false} />
+        <Input label="Descripción" placeholder="descripción" isTextarea />
+        <Button text="Crear" />
       </section>
     </main>
   );

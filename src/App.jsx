@@ -1,8 +1,5 @@
 import "./App.css";
-import { EditTask } from "./pages/EditTask";
-// import { AddTask } from "./pages/AddTask";
-import { Home } from "./pages/Home";
-import { ListTasks } from "./pages/ListTasks";
+import { ListTasks, AddTask, Home, EditTask } from "@/pages";
 
 function App() {
   return (

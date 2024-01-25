@@ -1,7 +1,7 @@
-import "./style.css"
+import "./style.css";
 
-const Button = () => {
-  return <button className="button">Button</button>;
+const Button = ({ text = "Button" }) => {
+  return <button className="button">{text}</button>;
 };
 
 export { Button };
