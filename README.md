@@ -25,8 +25,14 @@ npm run dev
 
 ![Parte 01 - Creación de Componentes - YT](/parte-01.png)
 
-[Intro + Creación de Componentes - Youtube](https://youtu.be/gK8Pw4RNCms?si=Ps6xgvTnsuRquUk3)
+[Intro + Creación de Componentes - Youtube](https://youtu.be/gK8Pw4RNCms)
 
 - Branch: feature/design-components
 
 ---
+
+![Parte 02 - Creación y Uso de Props - YT](/parte-02.png)
+
+[Intro + Creación de Props - Youtube](https://youtu.be/_BRaGfX3n1E)
+
+- Branch: feature/props
